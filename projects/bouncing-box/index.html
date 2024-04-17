@@ -48,8 +48,8 @@
 			box.on('click', handleBoxClick);
 
 			// moves the Box to a new position on the screen along the X-Axis
-			function moveBoxTo(newPositionX) {
-				box.css("left", newPositionX);
+			function moveBoxTo(  ) {
+				box.css("left", 1300);
 			}
 
 			// changes the text displayed on the Box
@@ -63,14 +63,14 @@
 			
 			// TODO 2 - Variable declarations 
 			
-
+var positionX = 0;
 			
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
 			it should move the Box to a new location. If the box drifts off the screen
 			turn it around! 
 			*/
-			function update() {
+			function update() { moveBoxTo(positionX)
 				
 
 			};

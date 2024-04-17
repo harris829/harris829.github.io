@@ -49,11 +49,11 @@ $(function () {
     createPlatform(357,650,50,20)
     createPlatform(400,475,60,20)
     createPlatform(459,650,50,20)
-    createPlatform(580,610,400,20)
+    createPlatform(580,610,100,20)
     createPlatform(650,360,40,20)
     createPlatform(940,360,50,20)
     createPlatform(1358,700,50,20)
-    
+    createPlatform(1000,600,50,20)
     
     
   
@@ -80,8 +80,8 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
     createCannon("left", 700, 10, 20, 45)
-    createCannon("left", 700, 10, 20, 45)
-    createCannon("left", 700, 10, 20, 45)
+    createCannon("top", 500, 1050, 20, 45)
+    createCannon("top", 950, 1000, 20, 45)
 
 
     /////////////////////////////////////////////////
